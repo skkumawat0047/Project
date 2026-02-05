@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.text {
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+}
+.button {
+    height: 150px;
+    width: 150px;
+    border: none;
+    background-color: rgb(185, 218, 218);
+    border-radius: 50%;
+}
+i{
+    font-size: 90px;
+    color: white;
+}
+#rock {
+    background-color: rgb(218, 93, 93);
+}
+#paper{
+    background-color: rgb(209, 85, 205);
+}
+#scissor {
+    background-color: rgb(93, 82, 216);
+}
+.button:hover {
+    border: 5px solid black;
+}
+.button:active{
+    background-color: rgb(39, 225, 163);
+}
+.count {
+    display: flex;
+    justify-content: center;
+    font-size:2.5rem;
+    gap: 50px;
+    margin-top: 150px;
+}
+h3 {
+    font-size: 30px ;
+}
+.result {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.countmove {
+    height: 50px;
+    padding: 0px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 30px;
+}

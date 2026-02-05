@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(99, 99, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main{
+    background-color: aliceblue;
+    height: 45vh;
+    width: 30vw;
+    padding: 2rem;
+    border-radius: 15px;
+}
+.block1 div {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.block1 input {
+    background-color: rgb(210, 239, 239);
+    margin: 5px 0 16px 0px;
+    width: 96%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+.block2{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+    background-color: rgb(206, 222, 216);
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.from {
+    display: flex;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 7.5rem;
+    align-items:center;
+    justify-content: space-between;
+}
+select {
+    margin: 0;
+    border: none;
+    outline: none;
+    width:4rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: azure;
+    font-size: larger;
+}
+img {
+    background-size:contain;
+    height:3rem;
+    border-radius: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+button {
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: large;
+    width: 100%;
+    background-color: rgb(147, 73, 216);
+    outline: none;
+}
+
+button:active {
+    background-color: aqua;
+    color: white;
+    box-shadow: 0 0 5px rgb(255, 0, 157);
+}

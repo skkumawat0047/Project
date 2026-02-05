@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main {
+    width: 440px;
+}
+
+.txt {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 2px 40px;
+}
+
+.first {
+    height: 10vh;
+    background-color: rgb(15, 34, 51);
+    margin-bottom: 2px;
+    border: 2px solid rgb(67, 70, 74);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.output {
+    height: 49%;
+    margin: 2px;
+    box-sizing: border-box;
+    color: white;
+    justify-self:end ;
+    font-size: 20px;
+}
+.input {
+    height: 49%;
+    margin: 2px;
+    box-sizing: border-box;
+    color: white;
+    justify-self:end ;
+    font-size: 20px;
+}
+
+.second {
+    padding: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    /* border: 3px; */
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+.second div {
+    list-style: none;
+    background-color: rgb(63, 46, 46);
+    height: 40px;
+    width: 80px;
+    border: 3px;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px;
+    font-size: 30px;
+    color: white;
+}
+
+.second div:active {
+    background-color: cadetblue;
+}
+
+.second div:hover {
+    cursor: pointer;
+}
+
+sup {
+    font-size: 13px;
+}
+
+sub {
+    font-size: 13px;
+}
+@media only screen and (max-width:344px){
+    .second div {
+        width: 64px;
+    }
+    .first {
+        margin-bottom: 1px;
+    }
+}
